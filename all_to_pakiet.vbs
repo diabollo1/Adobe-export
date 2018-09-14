@@ -1,4 +1,4 @@
-call back_script("C:\Users\Tomek\AppData\Roaming\Adobe\InDesign\Version 9.0\pl_PL\Scripts\Scripts Panel\all_to_pakiet.vbs", "all_to_pakiet.vbs")
+call back_script("C:\Users\Tomek\AppData\Roaming\Adobe\InDesign\Version 9.0\pl_PL\Scripts\Scripts Panel\Adobe-export\all_to_pakiet.vbs", "all_to_pakiet.vbs")
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Set myInDesign = CreateObject("InDesign.Application")
 

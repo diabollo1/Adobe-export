@@ -1,4 +1,4 @@
-call back_script("C:\Users\Tomek\AppData\Roaming\Adobe\InDesign\Version 9.0\pl_PL\Scripts\Scripts Panel\all_to_pdf.vbs", "all_to_pdf.vbs")
+call back_script("C:\Users\Tomek\AppData\Roaming\Adobe\InDesign\Version 9.0\pl_PL\Scripts\Scripts Panel\Adobe-export\all_to_pdf.vbs", "all_to_pdf.vbs")
 
 set myInDesign = CreateObject("InDesign.Application")
 ile_dokumentow = myInDesign.Documents.Count
@@ -85,7 +85,7 @@ For myDocumentCounter = 1 To ile_dokumentow
 			myInDesign.pdfExportPreferences.disallowFormFillIn = True 
 			myInDesign.pdfExportPreferences.disallowPrinting = True 
 			myInDesign.pdfExportPreferences.disallowHiResPrinting = True 
-			myInDesign.pdfExportPreferences.disallowNotes = True 
+			'myInDesign.pdfExportPreferences.disallowNotes = True 
 			
 		myInDesign.Documents.Item(myDocumentCounter).Export idExportFormat.idPDFType, path_name_small, False, pref_111_small
 		
